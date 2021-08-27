@@ -20,7 +20,8 @@ export function TaskList() {
         id: Math.random(),
         title: newTaskTitle,
         isComplete: false
-      }])
+      }]);
+      setNewTaskTitle('');
     }
   }
 
